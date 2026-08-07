@@ -1,0 +1,202 @@
+{
+    "mode": "general",
+    "plan_name": "General Practice",
+    "interview_type": "practice",
+    "timestamp": "2026-08-06_16-55-43",
+    "results": [
+        {
+            "question_type": "introduction",
+            "topic": "introduction",
+            "question": "Tell me about yourself.",
+            "answer": "Sure! I'm currently a senior studying Computer Science at State University, and over the past few years I've really enjoyed building software that solves real problems. Last summer I completed a software engineering internship at TechSolutions, where I worked on backend REST APIs, debugged production issues, collaborated with other engineers, and worked with PostgreSQL databases. Outside of that, I've built several full-stack projects, including a Course Planner, an Expense Tracker, and a Weather Dashboard, which gave me experience with technologies like React, Node.js, Express, and Docker. I'm looking for an entry-level software engineering role where I can continue learning from experienced engineers while contributing to real products, and this role stood out because it matches the kind of backend development and collaborative work that I really enjoy.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 9,
+                    "structure": 9,
+                    "specificity": 8,
+                    "relevance": 9,
+                    "confidence": 9
+                },
+                "strengths": [
+                    "The answer is clear and easy to follow, providing a concise overview of the candidate's background.",
+                    "It is well-structured, with a logical flow from education to internship experience, personal projects, and career goals.",
+                    "The candidate provides specific examples of technologies and projects, demonstrating relevant technical skills.",
+                    "The answer is highly relevant to the job, focusing on backend development, collaboration, and learning opportunities.",
+                    "The confident tone conveys enthusiasm and a clear understanding of what the candidate is looking for."
+                ],
+                "improvements": [
+                    "Could briefly mention any key achievements or impact during the internship to strengthen the answer.",
+                    "Adding a short personal statement about motivation or passion for software engineering could enhance personal connection.",
+                    "Mentioning one desired skill to develop in the new role could show eagerness to grow."
+                ],
+                "better_answer": "I'm a senior Computer Science student at State University with a passion for building software that addresses real user needs. Last summer, I interned at TechSolutions, where I developed backend REST APIs in Python, resolved production issues, and worked closely with PostgreSQL databases and cross-functional teams. Beyond that, I built full-stack projects like a Course Planner and Expense Tracker using React, Node.js, and Docker, which helped me gain hands-on experience with modern web technologies. I'm eager to join an entry-level software engineering role focused on backend development and teamwork, where I can contribute my skills and continue learning from experienced engineers.",
+                "overall_score": 9
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "behavioral experience",
+            "question": "Can you describe a challenging bug you encountered during your internship at TechSolutions Inc. and how you approached resolving it?",
+            "answer": "During my internship at TechSolutions, I was working on a backend API when we started seeing intermittent failures for a particular endpoint. My first step was to reproduce the issue locally and review the application logs to narrow down where the failure was occurring. After some investigation, I found that the problem only happened when certain database values were missing, and our code wasn't handling those cases properly. I updated the validation and error handling logic, tested several edge cases, and confirmed the endpoint behaved correctly afterward. That experience reinforced the importance of debugging methodically and validating assumptions before jumping to a solution.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 9,
+                    "structure": 8,
+                    "specificity": 8,
+                    "relevance": 9,
+                    "confidence": 8
+                },
+                "strengths": [
+                    "Clear and concise explanation of the debugging process.",
+                    "Logical step-by-step approach to identifying and resolving the bug.",
+                    "Relevant to the role involving backend API development and debugging.",
+                    "Demonstrates understanding of error handling and validation.",
+                    "Reflects learning and reflection on problem-solving experience."
+                ],
+                "improvements": [
+                    "Could include more technical details such as specific tools or code changes.",
+                    "Mentioning collaboration or seeking help if applicable would show teamwork.",
+                    "Describing the impact or outcome quantitatively would strengthen the answer.",
+                    "Could briefly mention how the fix was deployed or verified in production."
+                ],
+                "better_answer": "During my internship at TechSolutions, I encountered intermittent failures on a backend API endpoint. To resolve it, I first reproduced the issue locally and reviewed application logs to narrow down the cause. I discovered the failures occurred when certain database values were missing, which our code was not handling properly. I updated the validation and error handling logic to cover these cases, then tested various edge scenarios to ensure stability. After confirming the fix locally, I collaborated with my team to deploy the update and monitored logs to verify the issue was resolved. This experience reinforced the importance of systematic debugging and thorough validation before implementing solutions.",
+                "overall_score": 8
+            }
+        },
+        {
+            "question_type": "project",
+            "topic": "relevant experience",
+            "question": "Can you walk me through a specific feature you developed during your internship at TechSolutions, explaining your design choices and any challenges you faced?",
+            "answer": "One feature I developed was the data retrieval component of my Weather Dashboard project. I designed the application to call a third-party weather API, process the response, and display the forecast in a simple, user-friendly interface. One challenge was handling cases where the API request failed or returned incomplete data, so I added error handling to display clear messages instead of letting the application break. I also kept the frontend and backend responsibilities separated, which made the code easier to maintain and update as I added new features.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 7,
+                    "relevance": 8,
+                    "confidence": 8
+                },
+                "strengths": [
+                    "Clearly explains the feature developed and its purpose.",
+                    "Mentions specific design choices like error handling and separation of frontend/backend.",
+                    "Addresses a real challenge faced and the solution implemented."
+                ],
+                "improvements": [
+                    "Could provide more detail on the technologies or frameworks used.",
+                    "Could better structure the answer by explicitly outlining design choices and challenges separately.",
+                    "Adding metrics or impact of the feature would strengthen the answer."
+                ],
+                "better_answer": "During my internship at TechSolutions, I developed the data retrieval component of a Weather Dashboard web app. I designed it to consume a third-party weather API, processing API responses to show forecasts in a clean, user-friendly interface. A key design decision was to separate frontend and backend responsibilities, which improved maintainability and scalability. One challenge I encountered was handling API failures and incomplete data; I implemented robust error handling to display clear messages and prevent application crashes, enhancing the user experience.",
+                "overall_score": 8
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "motivation and role fit",
+            "question": "What aspects of software engineering excite you the most, and how do you see them aligning with the responsibilities outlined for this role?",
+            "answer": "What excites me most about software engineering is being able to build applications that help people and solve problems. I enjoy working with technology and learning new programming languages and tools. I think this role would be a good opportunity for me to continue improving my technical skills while working with experienced engineers. Overall, I'm looking for a place where I can grow as a software engineer and contribute to meaningful projects.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 5,
+                    "relevance": 7,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "The answer clearly expresses enthusiasm for building applications that help people and solve problems.",
+                    "The candidate shows a desire for learning new technologies and improving technical skills.",
+                    "There is a good overall alignment with growing as a software engineer and contributing to meaningful projects."
+                ],
+                "improvements": [
+                    "Include more specific examples or experiences from prior internships or projects to demonstrate passion and alignment.",
+                    "Explicitly connect the excitement points to the responsibilities outlined for this role, such as building reliable, scalable applications or collaborating with teams.",
+                    "Increase confidence by highlighting how past experiences prepared the candidate for this role's responsibilities."
+                ],
+                "better_answer": "What excites me most about software engineering is building applications that solve real problems and improve users' lives. For example, during my internship at TechSolutions, I developed backend REST APIs that enhanced application reliability and user experience. This aligns well with this role's focus on designing, building, and maintaining scalable applications. I'm eager to continue learning new technologies and collaborate with experienced engineers to contribute meaningful features and improve system performance.",
+                "overall_score": 7
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "role-relevant knowledge",
+            "question": "What strategies do you use to ensure the applications you develop are both reliable and scalable, especially in a customer-facing environment like the one described in this role?",
+            "answer": "I try to write clean and organized code so it's easier to maintain and less likely to introduce bugs. I also like to test my work with different inputs and edge cases before considering a feature finished. If I know an application will have more users over time, I try to keep the design modular so new features can be added without changing everything. In a customer-facing environment, I think reliability is especially important because users expect the application to work consistently, so I would also pay close attention to debugging issues and fixing problems quickly.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 7,
+                    "structure": 6,
+                    "specificity": 5,
+                    "relevance": 7,
+                    "confidence": 6
+                },
+                "strengths": [
+                    "The candidate emphasizes writing clean and organized code, which is important for maintainability and reliability.",
+                    "There is a good acknowledgement of testing with various inputs and edge cases to ensure functionality.",
+                    "The candidate recognizes the importance of modular design for scalability and ease of adding features.",
+                    "They show awareness of the importance of reliability in a customer-facing environment and quick debugging."
+                ],
+                "improvements": [
+                    "The answer could be more structured by separating strategies clearly under reliability and scalability.",
+                    "More specific examples or tools used in testing, debugging, or designing modular systems would strengthen the answer.",
+                    "The candidate could mention specific methods of ensuring scalability like load balancing, caching, or database optimization.",
+                    "Confidence could be improved by referencing personal experience or results from their internship or projects."
+                ],
+                "better_answer": "To ensure reliability and scalability, I focus on writing clean, modular code that separates concerns, making maintenance and feature additions easier. During my internship at TechSolutions, I developed backend REST APIs with modular components, which helped isolate issues and support future enhancements. I rigorously test features using a variety of inputs and edge cases, including automated testing where possible, to catch bugs early. For scalability, I design APIs and database schemas to handle growing user loads, keeping performance in mind. In customer-facing environments, I prioritize monitoring and quick issue resolution, using logs and debugging tools to maintain consistent application performance and reliability.",
+                "overall_score": 6
+            }
+        }
+    ],
+    "statistics": {
+        "questions_answered": 5,
+        "overall_average": 7.6,
+        "category_averages": {
+            "clarity": 8.2,
+            "structure": 7.4,
+            "specificity": 6.6,
+            "relevance": 8.0,
+            "confidence": 7.6
+        },
+        "strongest_category": "clarity",
+        "weakest_category": "specificity",
+        "question_scores": [
+            {
+                "question": "Tell me about yourself.",
+                "question_type": "introduction",
+                "overall_score": 9
+            },
+            {
+                "question": "Can you describe a challenging bug you encountered during your internship at TechSolutions Inc. and how you approached resolving it?",
+                "question_type": "behavioral",
+                "overall_score": 8
+            },
+            {
+                "question": "Can you walk me through a specific feature you developed during your internship at TechSolutions, explaining your design choices and any challenges you faced?",
+                "question_type": "project",
+                "overall_score": 8
+            },
+            {
+                "question": "What aspects of software engineering excite you the most, and how do you see them aligning with the responsibilities outlined for this role?",
+                "question_type": "behavioral",
+                "overall_score": 7
+            },
+            {
+                "question": "What strategies do you use to ensure the applications you develop are both reliable and scalable, especially in a customer-facing environment like the one described in this role?",
+                "question_type": "behavioral",
+                "overall_score": 6
+            }
+        ]
+    },
+    "context": {
+        "resume": {
+            "text": "John Carter\nAustin, TX\njohn.carter@email.com\n(555) 123-4567\ngithub.com/johncarter\nlinkedin.com/in/johncarter\n\n------------------------------------------------------------\nEDUCATION\n------------------------------------------------------------\n\nState University\nBachelor of Science in Computer Science\nExpected Graduation: May 2026\nGPA: 3.6 / 4.0\n\n------------------------------------------------------------\nTECHNICAL SKILLS\n------------------------------------------------------------\n\nLanguages:\nPython, Java, JavaScript, SQL, HTML/CSS\n\nFrameworks & Technologies:\nReact, Node.js, Express.js, PostgreSQL, Docker\n\nTools:\nGit, VS Code, Postman\n\nConcepts:\nREST APIs, Object-Oriented Programming, Data Structures & Algorithms,\nAgile Development\n\n------------------------------------------------------------\nEXPERIENCE\n------------------------------------------------------------\n\nSoftware Engineering Intern\nTechSolutions Inc.\nMay 2025 \u2013 August 2025\n\n\u2022 Developed backend REST APIs in Python supporting customer-facing\nweb applications.\n\u2022 Investigated and resolved backend bugs, improving API reliability\nand reducing production issues.\n\u2022 Worked with PostgreSQL databases to implement new application\nfeatures.\n\u2022 Collaborated with frontend developers and product managers during\nfeature development.\n\u2022 Participated in code reviews and Git-based development workflows.\n\n------------------------------------------------------------\nPROJECTS\n------------------------------------------------------------\n\nCourse Planner\n\n\u2022 Built a full-stack web application to help students plan semester\nschedules.\n\u2022 Designed REST APIs using Node.js and Express.\n\u2022 Stored course information in PostgreSQL.\n\u2022 Implemented user authentication.\n\u2022 Collaborated with three teammates using Git.\n\nExpense Tracker\n\n\u2022 Developed a personal finance application using React and Node.js.\n\u2022 Built dashboards to visualize spending trends.\n\u2022 Added authentication and persistent data storage.\n\nWeather Dashboard\n\n\u2022 Built a web application that consumes a third-party weather API.\n\u2022 Implemented error handling for failed API requests.\n\u2022 Focused on responsive design and usability.\n\n------------------------------------------------------------\nLEADERSHIP & ACTIVITIES\n------------------------------------------------------------\n\nComputer Science Club\nMember\n2023 \u2013 Present\n\n\u2022 Participated in hackathons and technical workshops.\n\u2022 Collaborated with other students on software development projects.",
+            "document_type": "resume",
+            "source_name": "sample_resume.txt"
+        },
+        "job_description": {
+            "text": "Software Engineer - New Graduate\n\nAbout the Role\n\nWe are looking for a new graduate Software Engineer to join our engineering team and help build reliable, scalable applications used by customers and internal teams. You will work closely with engineers, product managers, and other stakeholders to design features, improve existing systems, and solve technical problems across the software development lifecycle.\n\nResponsibilities\n\n- Design, build, test, and maintain software applications and backend services\n- Develop and integrate REST APIs used by internal and customer-facing applications\n- Debug production issues and investigate system failures using logs, metrics, and testing tools\n- Work with relational databases and write queries to support application features\n- Collaborate with engineers and product teams to translate requirements into technical solutions\n- Participate in code reviews and contribute to clean, maintainable, and well-tested code\n- Help improve application reliability, performance, and scalability\n- Learn new technologies and frameworks as needed for different projects\n- Contribute to cloud-based deployments and modern development workflows\n\nQualifications\n\n- Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field\n- Experience programming in Python, Java, JavaScript, or a similar language\n- Understanding of object-oriented programming and common software design principles\n- Familiarity with REST APIs, HTTP, and backend application development\n- Experience with relational databases such as PostgreSQL or MySQL\n- Understanding of Git and collaborative software development workflows\n- Strong debugging, problem-solving, and communication skills\n- Ability to learn unfamiliar technologies and work effectively in a team environment\n\nPreferred Qualifications\n\n- Experience with cloud platforms such as AWS, Azure, or Google Cloud\n- Familiarity with Docker or containerized applications\n- Exposure to frontend frameworks such as React\n- Experience with automated testing or CI/CD workflows\n- Familiarity with machine learning or AI-powered applications",
+            "document_type": "job_description",
+            "source_name": "sample_job_description.txt"
+        }
+    }
+}

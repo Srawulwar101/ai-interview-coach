@@ -1,0 +1,214 @@
+{
+    "mode": "custom",
+    "plan_name": "Custom Practice Interview",
+    "interview_type": "practice",
+    "timestamp": "2026-08-06_17-18-48",
+
+    "custom_configuration": {
+        "focus_topics": [
+            "API design",
+            "databases",
+            "cloud technologies"
+        ],
+        "question_type_targets": {
+            "behavioral": 1,
+            "technical": 3,
+            "resume": 1,
+            "project": 0
+        }
+    },
+
+    "results": [
+        {
+            "question_type": "technical",
+            "topic": "technical question 1",
+            "question": "Can you describe the key principles you follow when designing RESTful APIs? How do you ensure they are scalable and maintainable?",
+            "answer": "When designing RESTful APIs, I try to keep the endpoints resource-oriented and use consistent HTTP methods and status codes so the API is predictable for clients. I also focus on clear request and response schemas, validation, and useful error handling. For maintainability, I keep the API logic modular and separate concerns so changes to one area don\u2019t affect everything else. For scalability, I\u2019d think about things like pagination, efficient database access, caching where appropriate, and making sure the API is stateless so it can scale horizontally if demand increases.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 8,
+                    "specificity": 7,
+                    "relevance": 9,
+                    "confidence": 8
+                },
+                "strengths": [
+                    "Clear explanation of RESTful principles such as resource-oriented endpoints and consistent HTTP methods.",
+                    "Good mention of maintainability practices like modularity and separation of concerns.",
+                    "Addresses scalability factors including pagination, efficient database access, caching, and statelessness.",
+                    "Response is relevant and matches responsibilities in the candidate's experience and the job description."
+                ],
+                "improvements": [
+                    "Could provide concrete examples or personal experiences applying these principles in projects or internships.",
+                    "Mentioning specific tools or frameworks used to implement these principles might strengthen the answer.",
+                    "Could elaborate on how error handling is implemented and validated in practice."
+                ],
+                "better_answer": "When designing RESTful APIs, I ensure endpoints are resource-oriented, using consistent HTTP methods and status codes to keep the API intuitive and predictable. I focus on clear request/response schemas with validation and robust error handling to enhance client experience. To maintain the API, I write modular code following separation of concerns, so changes are isolated and easier to manage. For scalability, I implement pagination to handle large data sets, optimize database queries, and use caching strategies where appropriate. Additionally, I design the APIs to be stateless to support horizontal scaling. For example, in my internship at TechSolutions, I developed backend REST APIs in Python adhering to these principles, which improved reliability and facilitated collaboration with frontend teams.",
+                "overall_score": 8
+            }
+        },
+        {
+            "question_type": "technical",
+            "topic": "technical question 2",
+            "question": "Can you explain how you have used PostgreSQL in your past projects or internships? What strategies did you apply to optimize database performance and ensure data integrity?",
+            "answer": "I\u2019ve used PostgreSQL both during my internship and in projects like my Course Planner. I mainly used it to store and retrieve application data and worked with SQL queries through backend APIs. For performance, I tried to keep queries simple and avoid retrieving more data than the application needed, and for data integrity I relied on things like validation and making sure database changes matched the expected schema. I\u2019m familiar with ideas like indexing and constraints, but I haven\u2019t had to do much advanced database optimization yet.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 7,
+                    "structure": 6,
+                    "specificity": 5,
+                    "relevance": 7,
+                    "confidence": 6
+                },
+                "strengths": [
+                    "The candidate clearly states their use of PostgreSQL in both internship and project contexts.",
+                    "Mentions practical strategies like keeping queries simple and avoiding over-fetching data.",
+                    "Acknowledges familiarity with concepts like indexing, constraints, and validation for data integrity."
+                ],
+                "improvements": [
+                    "Provide more detailed examples or metrics related to the optimization efforts.",
+                    "Explain how data integrity was ensured beyond validation, such as use of transactions, constraints, or schema design.",
+                    "Improve answer structure by clearly separating experiences, strategies used, and outcomes.",
+                    "Demonstrate more confidence by focusing on what was done concretely rather than what hasn't been done yet."
+                ],
+                "better_answer": "During my internship at TechSolutions Inc. and in my Course Planner project, I used PostgreSQL to store and manage application data accessed via backend APIs. To optimize performance, I ensured my SQL queries were simple and efficient, avoiding unnecessary data retrieval, which improved response times. For data integrity, I leveraged PostgreSQL's validation mechanisms, such as constraints and schema checks, and coordinated with backend validation to maintain consistency. While I am familiar with indexing and other optimization techniques, I focused mostly on query simplicity and proper schema design to ensure reliability.",
+                "overall_score": 6
+            }
+        },
+        {
+            "question_type": "technical",
+            "topic": "cloud technologies",
+            "question": "Could you share your experience or understanding of cloud technologies such as AWS, Azure, or Google Cloud? How have you used or would you approach using these platforms in your projects?",
+            "answer": "I haven't had much hands-on experience using cloud platforms like AWS, Azure, or Google Cloud yet, but I understand the role they play in modern software development. They provide services for hosting applications, managing databases, storing files, and scaling systems as demand grows. If I were building a project, I'd use a cloud platform to deploy the application, host the database, and monitor performance instead of managing my own infrastructure. I'm confident in learning new technologies, so I'd be excited to gain more hands-on experience with cloud platforms in a professional environment.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 5,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "Clearly communicates understanding of cloud platforms' general purpose.",
+                    "Acknowledges current lack of hands-on experience honestly.",
+                    "Expresses eagerness and confidence to learn new technologies.",
+                    "Mentions practical ways to use cloud services hypothetically."
+                ],
+                "improvements": [
+                    "Could provide more specific examples or knowledge about particular cloud services or tools.",
+                    "The answer could benefit from a clearer structure separating understanding and hypothetical usage.",
+                    "Could briefly relate cloud technology use to previous projects or skills for stronger relevance.",
+                    "Avoid generalities by detailing what features or services would be used for specific project needs."
+                ],
+                "better_answer": "While I haven't yet had hands-on experience with AWS, Azure, or Google Cloud, I understand that these platforms offer scalable infrastructure services such as computing, storage, and managed databases that simplify deployment and maintenance. For example, in a project, I would use these platforms to deploy applications using container services, host databases with their managed offerings like Amazon RDS or Azure SQL, and utilize monitoring tools to track performance and availability. I'm confident in my ability to quickly learn and apply these cloud technologies to build scalable and reliable applications.",
+                "overall_score": 7
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "behavioral question 1",
+            "question": "Can you describe a challenging bug you encountered while developing backend REST APIs during your internship at TechSolutions Inc., and how you went about diagnosing and resolving it?",
+            "answer": "During my internship, I ran into an issue where one of the backend API endpoints wasn't returning the expected data in certain situations. I started by reproducing the issue consistently, then reviewed the API logic and database queries to narrow down where things were going wrong. After identifying the root cause, I updated the validation and error handling, tested several edge cases, and confirmed the endpoint was behaving as expected. That experience taught me the importance of approaching debugging systematically instead of making assumptions about where the problem was.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 6,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "The candidate clearly explains the debugging steps they took, showing a logical approach to resolving the issue.",
+                    "The response demonstrates an understanding of API logic and database queries relevant to backend development.",
+                    "The answer emphasizes learning from the experience, indicating growth and reflection."
+                ],
+                "improvements": [
+                    "Provide more specific details about the bug itself, such as the nature of the data inconsistency or the condition under which it occurred.",
+                    "Mention any particular tools or methods used in diagnosing the bug, such as logging, debugging tools, or collaboration with teammates.",
+                    "Include any measurable outcomes or improvements that resulted from fixing the bug to highlight impact."
+                ],
+                "better_answer": "During my internship at TechSolutions Inc., I encountered a bug where a backend API endpoint intermittently returned incomplete customer order data due to a missing join condition in a PostgreSQL query. To diagnose this, I first reproduced the issue using API tests and reviewed the relevant API logic and database interactions. Using debug logs and query analysis, I pinpointed the root cause\u2014the database query did not correctly handle certain edge cases, leading to incomplete results. I updated the query and added enhanced validation and error handling in the API layer. After testing multiple edge cases, the endpoint consistently returned accurate data. This experience taught me the importance of systematic debugging and thorough testing to improve API reliability.",
+                "overall_score": 7
+            }
+        },
+        {
+            "question_type": "resume",
+            "topic": "resume question 1",
+            "question": "Looking at your internship experience at TechSolutions Inc., can you describe a situation where you had to collaborate with frontend developers and product managers to implement a new feature involving databases? How did you ensure that the backend and database changes aligned well with the frontend requirements?",
+            "answer": "During my internship, I worked with frontend developers and the product manager whenever we added new backend functionality that involved the database. Before implementing the changes, we discussed what information the frontend needed and agreed on the API responses so everyone had the same expectations. As I worked on the backend and database changes, we stayed in communication and tested the feature together to make sure the data was being returned correctly. That collaboration helped us catch a few small issues early and made the integration process much smoother.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 6,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "The candidate clearly describes the collaboration process with frontend developers and product managers.",
+                    "They emphasize communication and alignment on API responses to ensure expectations were shared.",
+                    "They mention joint testing to catch issues early, demonstrating proactive quality control."
+                ],
+                "improvements": [
+                    "The answer could include more specific details, such as tools or methods used for communication and testing.",
+                    "Adding a brief example of a challenge faced and how it was resolved would strengthen the response.",
+                    "Clarify the candidate's specific role or contribution in the collaboration for more impact."
+                ],
+                "better_answer": "During my internship at TechSolutions Inc., when we added backend features involving database changes, I collaborated closely with frontend developers and the product manager. We started by discussing and aligning on the data requirements and agreed upon API responses to set clear expectations. I implemented the backend and database changes using PostgreSQL and developed REST APIs in Python. Throughout development, we maintained regular communication via meetings and used shared documentation to track progress. We also conducted joint testing sessions to validate that the frontend received the correct data, which helped us identify and fix small issues early. This collaborative approach ensured smooth integration between backend and frontend components.",
+                "overall_score": 7
+            }
+        }
+    ],
+    "statistics": {
+        "questions_answered": 5,
+        "overall_average": 7.0,
+        "category_averages": {
+            "clarity": 7.8,
+            "structure": 7.0,
+            "specificity": 5.8,
+            "relevance": 8.0,
+            "confidence": 7.0
+        },
+        "strongest_category": "relevance",
+        "weakest_category": "specificity",
+        "question_scores": [
+            {
+                "question": "Can you describe the key principles you follow when designing RESTful APIs? How do you ensure they are scalable and maintainable?",
+                "question_type": "technical",
+                "overall_score": 8
+            },
+            {
+                "question": "Can you explain how you have used PostgreSQL in your past projects or internships? What strategies did you apply to optimize database performance and ensure data integrity?",
+                "question_type": "technical",
+                "overall_score": 6
+            },
+            {
+                "question": "Could you share your experience or understanding of cloud technologies such as AWS, Azure, or Google Cloud? How have you used or would you approach using these platforms in your projects?",
+                "question_type": "technical",
+                "overall_score": 7
+            },
+            {
+                "question": "Can you describe a challenging bug you encountered while developing backend REST APIs during your internship at TechSolutions Inc., and how you went about diagnosing and resolving it?",
+                "question_type": "behavioral",
+                "overall_score": 7
+            },
+            {
+                "question": "Looking at your internship experience at TechSolutions Inc., can you describe a situation where you had to collaborate with frontend developers and product managers to implement a new feature involving databases? How did you ensure that the backend and database changes aligned well with the frontend requirements?",
+                "question_type": "resume",
+                "overall_score": 7
+            }
+        ]
+    },
+    "context": {
+        "resume": {
+            "text": "John Carter\nAustin, TX\njohn.carter@email.com\n(555) 123-4567\ngithub.com/johncarter\nlinkedin.com/in/johncarter\n\n------------------------------------------------------------\nEDUCATION\n------------------------------------------------------------\n\nState University\nBachelor of Science in Computer Science\nExpected Graduation: May 2026\nGPA: 3.6 / 4.0\n\n------------------------------------------------------------\nTECHNICAL SKILLS\n------------------------------------------------------------\n\nLanguages:\nPython, Java, JavaScript, SQL, HTML/CSS\n\nFrameworks & Technologies:\nReact, Node.js, Express.js, PostgreSQL, Docker\n\nTools:\nGit, VS Code, Postman\n\nConcepts:\nREST APIs, Object-Oriented Programming, Data Structures & Algorithms,\nAgile Development\n\n------------------------------------------------------------\nEXPERIENCE\n------------------------------------------------------------\n\nSoftware Engineering Intern\nTechSolutions Inc.\nMay 2025 \u2013 August 2025\n\n\u2022 Developed backend REST APIs in Python supporting customer-facing\nweb applications.\n\u2022 Investigated and resolved backend bugs, improving API reliability\nand reducing production issues.\n\u2022 Worked with PostgreSQL databases to implement new application\nfeatures.\n\u2022 Collaborated with frontend developers and product managers during\nfeature development.\n\u2022 Participated in code reviews and Git-based development workflows.\n\n------------------------------------------------------------\nPROJECTS\n------------------------------------------------------------\n\nCourse Planner\n\n\u2022 Built a full-stack web application to help students plan semester\nschedules.\n\u2022 Designed REST APIs using Node.js and Express.\n\u2022 Stored course information in PostgreSQL.\n\u2022 Implemented user authentication.\n\u2022 Collaborated with three teammates using Git.\n\nExpense Tracker\n\n\u2022 Developed a personal finance application using React and Node.js.\n\u2022 Built dashboards to visualize spending trends.\n\u2022 Added authentication and persistent data storage.\n\nWeather Dashboard\n\n\u2022 Built a web application that consumes a third-party weather API.\n\u2022 Implemented error handling for failed API requests.\n\u2022 Focused on responsive design and usability.\n\n------------------------------------------------------------\nLEADERSHIP & ACTIVITIES\n------------------------------------------------------------\n\nComputer Science Club\nMember\n2023 \u2013 Present\n\n\u2022 Participated in hackathons and technical workshops.\n\u2022 Collaborated with other students on software development projects.",
+            "document_type": "resume",
+            "source_name": "sample_resume.txt"
+        },
+        "job_description": {
+            "text": "Software Engineer - New Graduate\n\nAbout the Role\n\nWe are looking for a new graduate Software Engineer to join our engineering team and help build reliable, scalable applications used by customers and internal teams. You will work closely with engineers, product managers, and other stakeholders to design features, improve existing systems, and solve technical problems across the software development lifecycle.\n\nResponsibilities\n\n- Design, build, test, and maintain software applications and backend services\n- Develop and integrate REST APIs used by internal and customer-facing applications\n- Debug production issues and investigate system failures using logs, metrics, and testing tools\n- Work with relational databases and write queries to support application features\n- Collaborate with engineers and product teams to translate requirements into technical solutions\n- Participate in code reviews and contribute to clean, maintainable, and well-tested code\n- Help improve application reliability, performance, and scalability\n- Learn new technologies and frameworks as needed for different projects\n- Contribute to cloud-based deployments and modern development workflows\n\nQualifications\n\n- Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field\n- Experience programming in Python, Java, JavaScript, or a similar language\n- Understanding of object-oriented programming and common software design principles\n- Familiarity with REST APIs, HTTP, and backend application development\n- Experience with relational databases such as PostgreSQL or MySQL\n- Understanding of Git and collaborative software development workflows\n- Strong debugging, problem-solving, and communication skills\n- Ability to learn unfamiliar technologies and work effectively in a team environment\n\nPreferred Qualifications\n\n- Experience with cloud platforms such as AWS, Azure, or Google Cloud\n- Familiarity with Docker or containerized applications\n- Exposure to frontend frameworks such as React\n- Experience with automated testing or CI/CD workflows\n- Familiarity with machine learning or AI-powered applications",
+            "document_type": "job_description",
+            "source_name": "sample_job_description.txt"
+        }
+    }
+}

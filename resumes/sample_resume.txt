@@ -1,0 +1,86 @@
+John Carter
+Austin, TX
+john.carter@email.com
+(555) 123-4567
+github.com/johncarter
+linkedin.com/in/johncarter
+
+------------------------------------------------------------
+EDUCATION
+------------------------------------------------------------
+
+State University
+Bachelor of Science in Computer Science
+Expected Graduation: May 2026
+GPA: 3.6 / 4.0
+
+------------------------------------------------------------
+TECHNICAL SKILLS
+------------------------------------------------------------
+
+Languages:
+Python, Java, JavaScript, SQL, HTML/CSS
+
+Frameworks & Technologies:
+React, Node.js, Express.js, PostgreSQL, Docker
+
+Tools:
+Git, VS Code, Postman
+
+Concepts:
+REST APIs, Object-Oriented Programming, Data Structures & Algorithms,
+Agile Development
+
+------------------------------------------------------------
+EXPERIENCE
+------------------------------------------------------------
+
+Software Engineering Intern
+TechSolutions Inc.
+May 2025 – August 2025
+
+• Developed backend REST APIs in Python supporting customer-facing
+  web applications.
+• Investigated and resolved backend bugs, improving API reliability
+  and reducing production issues.
+• Worked with PostgreSQL databases to implement new application
+  features.
+• Collaborated with frontend developers and product managers during
+  feature development.
+• Participated in code reviews and Git-based development workflows.
+
+------------------------------------------------------------
+PROJECTS
+------------------------------------------------------------
+
+Course Planner
+
+• Built a full-stack web application to help students plan semester
+  schedules.
+• Designed REST APIs using Node.js and Express.
+• Stored course information in PostgreSQL.
+• Implemented user authentication.
+• Collaborated with three teammates using Git.
+
+Expense Tracker
+
+• Developed a personal finance application using React and Node.js.
+• Built dashboards to visualize spending trends.
+• Added authentication and persistent data storage.
+
+Weather Dashboard
+
+• Built a web application that consumes a third-party weather API.
+• Implemented error handling for failed API requests.
+• Focused on responsive design and usability.
+
+------------------------------------------------------------
+LEADERSHIP & ACTIVITIES
+------------------------------------------------------------
+
+Computer Science Club
+Member
+2023 – Present
+
+• Participated in hackathons and technical workshops.
+• Collaborated with other students on software development projects.

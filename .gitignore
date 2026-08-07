@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated vector database
+chroma_db/
+
+# Generated interview outputs
+interview_results/
+mock_interviews/
+chats/
+
+# macOS
+.DS_Store

@@ -1,0 +1,234 @@
+{
+    "mode": "general",
+    "plan_name": "General Mock Interview",
+    "interview_type": "mock",
+    "timestamp": "2026-08-06_17-06-14",
+    "results": [
+        {
+            "question_type": "introduction",
+            "topic": "introduction",
+            "question": "Tell me about yourself.",
+            "answer": "Sure! I'm currently a senior studying Computer Science at State University, and I've really enjoyed gaining experience through both internships and personal projects. Last summer I interned at TechSolutions, where I worked on backend APIs, debugging production issues, and collaborating with other engineers on customer-facing applications. Outside of that, I've built several full-stack projects that helped me strengthen my experience with technologies like React, Node.js, PostgreSQL, and Docker. At this point, I'm looking for an opportunity where I can continue learning from experienced engineers while contributing to real software products and growing as a backend software engineer.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 9,
+                    "structure": 8,
+                    "specificity": 8,
+                    "relevance": 9,
+                    "confidence": 9
+                },
+                "strengths": [
+                    "The answer is clear and easy to understand, providing a good overview of the candidate's background.",
+                    "Well-structured with a logical flow from education to internships to personal projects and future goals.",
+                    "Specific technologies and responsibilities are mentioned, reflecting concrete experience.",
+                    "Highly relevant to the software engineering role, aligning with the job and resume context.",
+                    "Delivered confidently, demonstrating enthusiasm and career focus."
+                ],
+                "improvements": [
+                    "Could include a brief personal or motivational aspect to add a more engaging touch.",
+                    "Might mention what specifically excites the candidate about backend development or the company's mission.",
+                    "Slightly more detail on the impact or outcomes of the internship projects could enhance specificity."
+                ],
+                "better_answer": "Sure! I'm a senior studying Computer Science at State University with a 3.6 GPA. Last summer, I interned at TechSolutions where I developed backend REST APIs using Python, resolved production bugs, and worked closely with frontend developers. I've also built several full-stack projects using React, Node.js, PostgreSQL, and Docker to deepen my skills. I'm passionate about backend development and eager to contribute to real-world software products while learning from experienced engineers and growing my expertise.",
+                "overall_score": 9
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "behavioral experience",
+            "question": "Can you describe a challenging bug you encountered while working on backend APIs during your internship at TechSolutions, and how you went about resolving it?",
+            "answer": "During my internship, I was helping maintain a backend API when we started seeing intermittent failures on one of the endpoints. I started by reviewing the logs and trying to reproduce the issue locally so I could narrow down where it was happening. After tracing the requests, I found that certain edge cases weren't being handled correctly when retrieving data from the database. I updated the validation and error handling, tested the affected scenarios, and confirmed that the endpoint behaved consistently afterward. It reinforced the importance of debugging methodically and verifying each assumption instead of jumping straight to a solution.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 7,
+                    "relevance": 8,
+                    "confidence": 8
+                },
+                "strengths": [
+                    "The candidate clearly explains the debugging process step-by-step starting from log review to reproducing the bug locally.",
+                    "They identify the root cause as edge cases in data retrieval and specify improvements made to validation and error handling.",
+                    "The answer reflects a methodical approach and learning from the experience, showing self-awareness.",
+                    "The response is directly relevant to backend API troubleshooting as requested."
+                ],
+                "improvements": [
+                    "Could provide more specific details about the edge cases or what kind of validation changes were implemented.",
+                    "Including the impact of the fix, such as reduction in failures or improved user experience, would strengthen the answer.",
+                    "Mentioning any tools, frameworks, or team collaboration involved in resolving the issue would add depth.",
+                    "The structure could be enhanced by clearly framing the challenge, action, and result sections."
+                ],
+                "better_answer": "During my internship at TechSolutions, one backend API endpoint was intermittently failing, causing unreliable responses for users. To address this, I first reviewed server logs and successfully reproduced the failure locally to isolate the problem. I discovered that certain edge cases in database queries were not properly handled, leading to errors in data retrieval. I updated the validation logic and improved error handling to cover these cases, then thoroughly tested the endpoint to ensure stability. This fix reduced the failure rate significantly and improved API reliability. This experience taught me the value of systematic debugging and careful verification before implementing fixes.",
+                "overall_score": 8
+            }
+        },
+        {
+            "question_type": "resume",
+            "topic": "resume and relevant experience",
+            "question": "Looking at your internship experience at TechSolutions, can you walk me through a specific feature you developed involving PostgreSQL databases? What was your approach and what challenges did you face?",
+            "answer": "One feature I worked on involved extending a backend API that stored and retrieved application data from a PostgreSQL database. My approach was to first understand the existing database schema and how the API interacted with it before making changes. I then updated the queries and API logic to support the new functionality while making sure existing behavior wasn't affected. One challenge was keeping the changes compatible with the existing endpoints, so I tested different scenarios and verified that the database operations returned the expected results before the feature was merged.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 7,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "Clear explanation of the approach taken to understand and modify the existing database schema and API.",
+                    "Mentioned testing different scenarios to ensure compatibility and correctness, showing thoroughness.",
+                    "Relevant to the question asked, demonstrating experience with PostgreSQL and backend API development."
+                ],
+                "improvements": [
+                    "Could provide a more detailed example of a specific feature or query change to increase specificity.",
+                    "Mentioning particular technical challenges or errors encountered would strengthen demonstration of problem-solving.",
+                    "The structure could be improved by explicitly separating the explanation into approach, challenges, and outcomes."
+                ],
+                "better_answer": "During my internship at TechSolutions, I developed a feature by extending a backend REST API that interacted with a PostgreSQL database to store and retrieve application data. I began by reviewing the existing database schema and how the API's current queries operated. Then, I modified the API logic and updated SQL queries to add the new feature while ensuring existing functionality remained intact. One challenge I faced was maintaining backward compatibility with current API endpoints, so I carefully tested multiple scenarios to verify that database operations returned expected results before merging the feature.",
+                "overall_score": 7
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "project or accomplishment",
+            "question": "You mentioned collaborating with frontend developers and product managers during your internship. Can you share an example of how you worked with the team to ensure the success of a feature you were developing?",
+            "answer": "During my internship, I worked with frontend developers and the product manager while building different features. We would talk about what needed to be done and make changes if something wasn't working correctly. If there were any questions, we would discuss them as a team before continuing. Overall, I think communicating with the team helped us complete the features successfully.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 7,
+                    "structure": 6,
+                    "specificity": 4,
+                    "relevance": 7,
+                    "confidence": 6
+                },
+                "strengths": [
+                    "The answer highlights teamwork and communication as key factors in feature success.",
+                    "Candidate demonstrates awareness of iterative collaboration and problem-solving within the team.",
+                    "Answer aligns with the candidate's internship experience involving collaboration with frontend developers and product managers."
+                ],
+                "improvements": [
+                    "Provide a specific example or scenario from the internship to illustrate the collaboration process.",
+                    "Include details about the feature worked on, challenges faced, and how the team overcame them.",
+                    "Mention any tools, workflows, or methods used to facilitate collaboration or ensure success.",
+                    "Express a clearer narrative structure: situation, task, action, result."
+                ],
+                "better_answer": "During my internship at TechSolutions Inc., I collaborated closely with frontend developers and the product manager while developing a new backend feature for our customer-facing web application. We held regular meetings to discuss requirements and identify potential issues. For instance, when the frontend team encountered unexpected API behavior, we quickly reviewed the design together and made necessary adjustments. This open communication and teamwork helped us deliver the feature on schedule and improved the application's reliability.",
+                "overall_score": 6
+            }
+        },
+        {
+            "question_type": "behavioral",
+            "topic": "motivation and role fit",
+            "question": "What motivated you to pursue a software engineering role, and how do you feel your previous experiences align with the responsibilities of this position?",
+            "answer": "I've always enjoyed working with technology and solving problems, which is what originally led me toward software engineering. Through my internship and personal projects, I realized I especially like building applications and learning new technologies. I think my previous experience has given me a good foundation for this role because I've worked on backend development, debugging, and collaborating with other developers. I'm looking forward to continuing to build those skills in a full-time software engineering position.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 6,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "The candidate clearly expresses their motivation for pursuing software engineering, focusing on problem-solving and technology.",
+                    "The answer connects previous internship experience with the role's responsibilities, highlighting backend development and debugging.",
+                    "Mentions collaboration, showing awareness of teamwork in software development."
+                ],
+                "improvements": [
+                    "Provide more detailed examples or specific accomplishments from the internship or personal projects to enhance specificity.",
+                    "Elaborate on how the candidate's skills directly align with key role requirements such as REST APIs, object-oriented programming, or database experience.",
+                    "Add a stronger closing statement reflecting enthusiasm and confidence about contributing to the prospective team."
+                ],
+                "better_answer": "I've been passionate about technology and problem-solving from a young age, which motivated me to pursue software engineering. During my internship at TechSolutions Inc., I developed backend REST APIs in Python and resolved bugs that improved application reliability. I also collaborated closely with other developers, gaining valuable teamwork experience. These experiences have prepared me well for this role, where I look forward to leveraging my backend development skills and continuing to grow as part of a dynamic engineering team.",
+                "overall_score": 7
+            }
+        },
+        {
+            "question_type": "technical",
+            "topic": "role-relevant knowledge",
+            "question": "Can you explain your understanding of scalability in backend systems and describe how you would ensure an application remains performant as user demand grows?",
+            "answer": "To me, scalability means designing a system so it can continue performing well as the number of users or requests increases. I would start by building the application in a modular way so individual components can be updated or scaled independently. I'd also focus on writing efficient database queries, adding pagination where appropriate, reducing unnecessary API calls, and monitoring performance to identify bottlenecks as the application grows. As demand increases, techniques like caching, load balancing, and horizontal scaling can help maintain good performance while keeping the application reliable.",
+            "evaluation": {
+                "ratings": {
+                    "clarity": 8,
+                    "structure": 7,
+                    "specificity": 6,
+                    "relevance": 8,
+                    "confidence": 7
+                },
+                "strengths": [
+                    "Provided a clear, concise definition of scalability.",
+                    "Mentioned concrete methods like modular design, efficient queries, pagination, caching, and load balancing.",
+                    "Demonstrated understanding of monitoring and identifying bottlenecks.",
+                    "Relevant to backend system performance and scaling challenges."
+                ],
+                "improvements": [
+                    "Could include specific examples or past experiences related to scalability.",
+                    "Elaborate more on how modularity helps in scaling.",
+                    "Mention particular tools or technologies used for monitoring and scaling, if any.",
+                    "Structure the answer with a clearer flow from definition to strategies and monitoring."
+                ],
+                "better_answer": "Scalability in backend systems means designing the application to handle increasing user loads without performance loss. To ensure this, I focus on modular architecture so components can scale independently. For example, I write efficient SQL queries and implement pagination to reduce load. I use caching to minimize database hits and load balancers to distribute traffic evenly. Monitoring performance through tools like Prometheus or custom metrics helps spot bottlenecks early. In my previous internship, I improved API reliability which is crucial for handling more users. Overall, these strategies help maintain application performance as demand grows.",
+                "overall_score": 7
+            }
+        }
+    ],
+    "statistics": {
+        "questions_answered": 6,
+        "overall_average": 7.3,
+        "category_averages": {
+            "clarity": 8.0,
+            "structure": 7.0,
+            "specificity": 6.3,
+            "relevance": 8.0,
+            "confidence": 7.3
+        },
+        "strongest_category": "clarity",
+        "weakest_category": "specificity",
+        "question_scores": [
+            {
+                "question": "Tell me about yourself.",
+                "question_type": "introduction",
+                "overall_score": 9
+            },
+            {
+                "question": "Can you describe a challenging bug you encountered while working on backend APIs during your internship at TechSolutions, and how you went about resolving it?",
+                "question_type": "behavioral",
+                "overall_score": 8
+            },
+            {
+                "question": "Looking at your internship experience at TechSolutions, can you walk me through a specific feature you developed involving PostgreSQL databases? What was your approach and what challenges did you face?",
+                "question_type": "resume",
+                "overall_score": 7
+            },
+            {
+                "question": "You mentioned collaborating with frontend developers and product managers during your internship. Can you share an example of how you worked with the team to ensure the success of a feature you were developing?",
+                "question_type": "behavioral",
+                "overall_score": 6
+            },
+            {
+                "question": "What motivated you to pursue a software engineering role, and how do you feel your previous experiences align with the responsibilities of this position?",
+                "question_type": "behavioral",
+                "overall_score": 7
+            },
+            {
+                "question": "Can you explain your understanding of scalability in backend systems and describe how you would ensure an application remains performant as user demand grows?",
+                "question_type": "technical",
+                "overall_score": 7
+            }
+        ]
+    },
+    "context": {
+        "resume": {
+            "text": "John Carter\nAustin, TX\njohn.carter@email.com\n(555) 123-4567\ngithub.com/johncarter\nlinkedin.com/in/johncarter\n\n------------------------------------------------------------\nEDUCATION\n------------------------------------------------------------\n\nState University\nBachelor of Science in Computer Science\nExpected Graduation: May 2026\nGPA: 3.6 / 4.0\n\n------------------------------------------------------------\nTECHNICAL SKILLS\n------------------------------------------------------------\n\nLanguages:\nPython, Java, JavaScript, SQL, HTML/CSS\n\nFrameworks & Technologies:\nReact, Node.js, Express.js, PostgreSQL, Docker\n\nTools:\nGit, VS Code, Postman\n\nConcepts:\nREST APIs, Object-Oriented Programming, Data Structures & Algorithms,\nAgile Development\n\n------------------------------------------------------------\nEXPERIENCE\n------------------------------------------------------------\n\nSoftware Engineering Intern\nTechSolutions Inc.\nMay 2025 \u2013 August 2025\n\n\u2022 Developed backend REST APIs in Python supporting customer-facing\nweb applications.\n\u2022 Investigated and resolved backend bugs, improving API reliability\nand reducing production issues.\n\u2022 Worked with PostgreSQL databases to implement new application\nfeatures.\n\u2022 Collaborated with frontend developers and product managers during\nfeature development.\n\u2022 Participated in code reviews and Git-based development workflows.\n\n------------------------------------------------------------\nPROJECTS\n------------------------------------------------------------\n\nCourse Planner\n\n\u2022 Built a full-stack web application to help students plan semester\nschedules.\n\u2022 Designed REST APIs using Node.js and Express.\n\u2022 Stored course information in PostgreSQL.\n\u2022 Implemented user authentication.\n\u2022 Collaborated with three teammates using Git.\n\nExpense Tracker\n\n\u2022 Developed a personal finance application using React and Node.js.\n\u2022 Built dashboards to visualize spending trends.\n\u2022 Added authentication and persistent data storage.\n\nWeather Dashboard\n\n\u2022 Built a web application that consumes a third-party weather API.\n\u2022 Implemented error handling for failed API requests.\n\u2022 Focused on responsive design and usability.\n\n------------------------------------------------------------\nLEADERSHIP & ACTIVITIES\n------------------------------------------------------------\n\nComputer Science Club\nMember\n2023 \u2013 Present\n\n\u2022 Participated in hackathons and technical workshops.\n\u2022 Collaborated with other students on software development projects.",
+            "document_type": "resume",
+            "source_name": "sample_resume.txt"
+        },
+        "job_description": {
+            "text": "Software Engineer - New Graduate\n\nAbout the Role\n\nWe are looking for a new graduate Software Engineer to join our engineering team and help build reliable, scalable applications used by customers and internal teams. You will work closely with engineers, product managers, and other stakeholders to design features, improve existing systems, and solve technical problems across the software development lifecycle.\n\nResponsibilities\n\n- Design, build, test, and maintain software applications and backend services\n- Develop and integrate REST APIs used by internal and customer-facing applications\n- Debug production issues and investigate system failures using logs, metrics, and testing tools\n- Work with relational databases and write queries to support application features\n- Collaborate with engineers and product teams to translate requirements into technical solutions\n- Participate in code reviews and contribute to clean, maintainable, and well-tested code\n- Help improve application reliability, performance, and scalability\n- Learn new technologies and frameworks as needed for different projects\n- Contribute to cloud-based deployments and modern development workflows\n\nQualifications\n\n- Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field\n- Experience programming in Python, Java, JavaScript, or a similar language\n- Understanding of object-oriented programming and common software design principles\n- Familiarity with REST APIs, HTTP, and backend application development\n- Experience with relational databases such as PostgreSQL or MySQL\n- Understanding of Git and collaborative software development workflows\n- Strong debugging, problem-solving, and communication skills\n- Ability to learn unfamiliar technologies and work effectively in a team environment\n\nPreferred Qualifications\n\n- Experience with cloud platforms such as AWS, Azure, or Google Cloud\n- Familiarity with Docker or containerized applications\n- Exposure to frontend frameworks such as React\n- Experience with automated testing or CI/CD workflows\n- Familiarity with machine learning or AI-powered applications",
+            "document_type": "job_description",
+            "source_name": "sample_job_description.txt"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+Software Engineer - New Graduate
+
+About the Role
+
+We are looking for a new graduate Software Engineer to join our engineering team and help build reliable, scalable applications used by customers and internal teams. You will work closely with engineers, product managers, and other stakeholders to design features, improve existing systems, and solve technical problems across the software development lifecycle.
+
+Responsibilities
+
+- Design, build, test, and maintain software applications and backend services
+- Develop and integrate REST APIs used by internal and customer-facing applications
+- Debug production issues and investigate system failures using logs, metrics, and testing tools
+- Work with relational databases and write queries to support application features
+- Collaborate with engineers and product teams to translate requirements into technical solutions
+- Participate in code reviews and contribute to clean, maintainable, and well-tested code
+- Help improve application reliability, performance, and scalability
+- Learn new technologies and frameworks as needed for different projects
+- Contribute to cloud-based deployments and modern development workflows
+
+Qualifications
+
+- Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field
+- Experience programming in Python, Java, JavaScript, or a similar language
+- Understanding of object-oriented programming and common software design principles
+- Familiarity with REST APIs, HTTP, and backend application development
+- Experience with relational databases such as PostgreSQL or MySQL
+- Understanding of Git and collaborative software development workflows
+- Strong debugging, problem-solving, and communication skills
+- Ability to learn unfamiliar technologies and work effectively in a team environment
+
+Preferred Qualifications
+
+- Experience with cloud platforms such as AWS, Azure, or Google Cloud
+- Familiarity with Docker or containerized applications
+- Exposure to frontend frameworks such as React
+- Experience with automated testing or CI/CD workflows
+- Familiarity with machine learning or AI-powered applications
