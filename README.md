@@ -116,7 +116,7 @@ Resume + Job Description
  Semantic Retrieval (RAG)
             │
             ▼
-      GPT Question Generation
+ GPT Question Generation
             │
             ▼
  Interview Session
