@@ -97,7 +97,7 @@ Project: 1
 # Architecture
 
 ```
-Resume + Job Description
+  Resume + Job Description
             │
             ▼
       Document Loader
@@ -106,11 +106,10 @@ Resume + Job Description
          Chunking
             │
             ▼
- OpenAI Embeddings API
+   OpenAI Embeddings API
             │
             ▼
-       ChromaDB
-(Vector Database)
+ ChromaDB (Vector Database)
             │
             ▼
  Semantic Retrieval (RAG)
@@ -119,16 +118,16 @@ Resume + Job Description
  GPT Question Generation
             │
             ▼
- Interview Session
+     Interview Session
             │
             ▼
- User Responses
+      User Responses
             │
             ▼
  AI Evaluation + Feedback
             │
             ▼
- JSON Session Results
+   JSON Session Results
 ```
 
 ---
